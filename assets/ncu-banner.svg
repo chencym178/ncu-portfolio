@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="南昌大学 Nanchang University 个人课程作品集">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d2a4a"/>
+      <stop offset="100%" stop-color="#123a63"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e6fa8"/>
+      <stop offset="100%" stop-color="#2a9bd6"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2fa06a"/>
+      <stop offset="100%" stop-color="#1c6b46"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="280" fill="url(#sky)"/>
+
+  <!-- 翠绿色山体 -->
+  <path d="M0 230 L180 150 L330 215 L470 120 L640 235 L780 175 L940 240 L1080 165 L1200 225 L1200 280 L0 280 Z" fill="url(#hill)" opacity="0.9"/>
+
+  <!-- 赣江水纹 -->
+  <path d="M0 246 C 150 226, 300 266, 450 246 S 750 226, 900 246 S 1100 266, 1200 246 L1200 280 L0 280 Z" fill="url(#wave)" opacity="0.85"/>
+  <path d="M0 262 C 160 248, 320 276, 480 262 S 800 248, 960 262 S 1120 276, 1200 262 L1200 280 L0 280 Z" fill="#4fb3e8" opacity="0.55"/>
+
+  <!-- 红五星 -->
+  <g transform="translate(112,116)">
+    <circle r="58" fill="#c8202e" opacity="0.18"/>
+    <polygon points="0,-46 13.5,-14.2 47.5,-14.2 20,-4.4 30.5,27.4 0,8  -30.5,27.4 -20,-4.4 -47.5,-14.2 -13.5,-14.2"
+             fill="#e63946" stroke="#ffd166" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+
+  <!-- 主标题 -->
+  <text x="210" y="112" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="54" font-weight="700" fill="#ffffff" letter-spacing="6">南昌大学</text>
+  <text x="212" y="150" font-family="Georgia,'Times New Roman',serif" font-size="21" fill="#9fd0f5" letter-spacing="3.5">NANCHANG UNIVERSITY</text>
+
+  <!-- 副标题 -->
+  <rect x="212" y="168" width="70" height="3" rx="1.5" fill="#e63946"/>
+  <text x="212" y="200" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="19" fill="#d8e9f7">个人课程作品集 · Personal Course Portfolio</text>
+
+  <!-- 校训 -->
+  <text x="212" y="240" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="16" fill="#7fb3d9" letter-spacing="2">格物致新 · 厚德泽人</text>
+
+  <!-- 右侧信息 -->
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#bcd9f0" text-anchor="end">
+    <text x="1148" y="108">学号 [学号]</text>
+    <text x="1148" y="138">姓名 [姓名]</text>
+    <text x="1148" y="168">专业 [专业]</text>
+    <text x="1148" y="206" font-size="13" fill="#7fb3d9">16-Week Engineering Portfolio</text>
+  </g>
+</svg>
