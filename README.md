@@ -133,11 +133,14 @@ git push
 | 字段 | 值 | 状态 |
 |---|---|---|
 | 仓库名 | `ncu-portfolio` | ✅ 已确定 |
-| GitHub 用户名 | `chencym178` | ✅ 已确认（账号存在，当前公开仓库数 0） |
-| 仓库 URL | `https://github.com/chencym178/ncu-portfolio` | ⏳ 待创建（推送到远程后生效） |
-| 可见性 | Public | ⏳ 待创建仓库时设为公开 |
-| 本地 Git | 未安装 | ⏳ 待安装后执行 `git init` |
+| GitHub 用户名 | `chencym178` | ✅ 已确认 |
+| 仓库 URL | [`https://github.com/chencym178/ncu-portfolio`](https://github.com/chencym178/ncu-portfolio) | ✅ **已上线** |
+| 可见性 | Public（`private: false`） | ✅ 公开 |
+| 默认分支 | `main` | ✅ 已就位 |
+| 初始化方式 | GitHub Git Data API（零安装，无需本地 Git） | ✅ 已完成 |
+| 入库文件数 | 27 个（`.secrets/` 已被 .gitignore 排除） | ✅ 完成 |
 | 本地 .gitignore | 已生成（4 大类 20+ 规则） | ✅ 完成 |
+| 本地 Git | 未安装（不影响浏览与在线编辑） | ⚠️ 可选安装 |
 | 学号 | `[学号]` | ⏳ 待填（在 README 首部替换） |
 | 姓名 | `[姓名]` | ⏳ 待填 |
 | 专业 | `[专业]` | ⏳ 待填 |
