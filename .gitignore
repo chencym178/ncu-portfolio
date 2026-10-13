@@ -1,0 +1,118 @@
+# ===================== 操作系统生成文件 =====================
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100/
+.fseventsd/
+.Spotlight-V100/
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+
+# ===================== IDE / 编辑器 =====================
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# JetBrains (PyCharm / IntelliJ)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs / Nano 临时文件
+*.swp
+*.swo
+*~
+*.[oa]
+
+# ===================== Python =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# 打包 / 分发
+build/
+dist/
+downloads/
+*.egg-info/
+*.egg
+MANIFEST
+
+# 测试 / 覆盖率
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+*.cover
+
+# 日志
+*.log
+logs/
+
+# Jupyter Notebook（可选：如要提交则取消下方注释）
+# *.ipynb_checkpoints/
+
+# ===================== Node / 前端（备选） =====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+pnpm-debug.log*
+
+# ===================== 本地机密（绝不提交！） =====================
+.secrets/
+*.token
+gh_token.txt
+credentials.json
+secrets.json
+
+# ===================== 其它 =====================
+.env
+.env.local
+.env.*.local
+*.bak
+*.tmp
+*.orig
+*.rej
+.cache/
+.parcel-cache/
